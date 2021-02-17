@@ -15,6 +15,15 @@ provider "aws" {
   shared_credentials_file = "credentials"
 }
 
+provider "docker" {
+  version = "~> 2.2"
+
+  registry_auth {
+    address = "registry.hub.docker.com"
+    config_file = "${pathexpand("~/.docker/config.json")}"
+  }
+}
+
 
 // AWS Resources
 resource "aws_s3_bucket" "tf_course" {
