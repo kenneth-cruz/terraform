@@ -6,6 +6,7 @@ provider "registry.terraform.io/hashicorp/aws" {
   hashes = [
     "h1:ccxtk7jAtmBPvAEXswOEYJcyp5jTD9QlQeg8GEzYmxQ=",
     "h1:o41Ad+49HYdAOx5NWgJkjBbAaAUjwZMDyK5tbeOmnWM=",
+    "h1:vfIXoqbQ7hUfnz0Rb6a5jVU6hxVXZg//ejHGrS59FwU=",
     "zh:2986eb5a1ffbb0336c6390aad533b62efc832aa8aa5460d523e1f2daa4f42f79",
     "zh:825317cdb80860833125a856c0befc877cba22d41c631c5a7ca22400693d4356",
     "zh:a47aad668cc74058f508c56c5407cd715dbb9b6389aa68d37543e897895db43f",
@@ -22,6 +23,7 @@ provider "registry.terraform.io/hashicorp/aws" {
 provider "registry.terraform.io/kreuzwerker/docker" {
   version = "2.11.0"
   hashes = [
+    "h1:CowgIrrdwDY/zl/ZwZtBAsc0v4hO2K86pYARs/ZmlS4=",
     "h1:Ns127R2rpWk48tRxmdExWJ/iO7JM9cYf8ITWs73L6AE=",
     "zh:1b9d93385cc0329467725ce90affc76a361bc23384a7358431e6ee281ae323de",
     "zh:21a327746cdad2abfc22df3d72eb9b36134bb7daeb72b2a52112adfd3a39555a",

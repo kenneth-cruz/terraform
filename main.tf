@@ -15,10 +15,6 @@ provider "aws" {
   shared_credentials_file = "credentials"
 }
 
-provider "docker" {
-
-}
-
 
 // AWS Resources
 resource "aws_s3_bucket" "tf_course" {
