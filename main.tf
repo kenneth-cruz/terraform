@@ -16,11 +16,7 @@ provider "aws" {
 }
 
 provider "docker" {
-  version = "~> 2.2"
 
-  registry_auth {
-    address = "registry.hub.docker.com"
-  }
 }
 
 
