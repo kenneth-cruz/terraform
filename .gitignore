@@ -10,6 +10,7 @@ credentials
 ### Terraform ###
 # Local .terraform directories
 **/.terraform/*
+.terraform
 
 # .tfstate files
 *.tfstate
@@ -40,7 +41,7 @@ override.tf.json
 
 # End of https://www.toptal.com/developers/gitignore/api/terraform
 
-### Jekyll ###
+#### Jekyll ####
 _site/
 .sass-cache/
 .jekyll-cache/
